@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,700);
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background: #333;
+	color: #fff;
+}
+header {
+	padding: 20px;
+}
+h1{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+p{
+	font-weight: 300;
+}
+a {
+	color: gray;
+}
+section {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+[class^="cara-"]{
+	display: flex;
+	margin: 1em;
+	width: 150px;
+	height: 150px;
+	padding: 15px;
+	background: #FEFEF6;
+	border-radius: 10%;
+}
+.cara-uno{
+	justify-content: center;
+	align-items: center;
+}
+.cara-dos{
+	justify-content: space-between;
+}
+.cara-dos .punto:nth-child(2){
+	align-self: flex-end;
+}
+.cara-tres{
+	justify-content: space-between;
+}
+.cara-tres .punto:nth-child(2){
+	align-self: center;
+}
+.cara-tres .punto:nth-child(3){
+	align-self: flex-end;
+}
+.cara-cuatro{
+	justify-content: space-between;
+}
+.cara-cuatro .columna {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.cara-cinco{
+	display: flex;
+	justify-content: space-between;
+}
+.cara-cinco .columna {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.cara-cinco .medio{
+	align-self: center;
+}
+.cara-seis{
+	display: flex;
+	justify-content: space-between;
+}
+.cara-seis .columna{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.punto {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: black;
+	box-shadow: inset 0 3px #111, inset 0 -3px #555;
+}
